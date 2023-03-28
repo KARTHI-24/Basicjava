@@ -30,6 +30,7 @@ class B extends A
 public class thisandsuper{
 public static void main(String[] args) {
    new B(5);
+   //
 }
 }
 
