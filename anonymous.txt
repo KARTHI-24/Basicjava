@@ -1,0 +1,28 @@
+1. anonymous object
+     creating object without the refernce
+     A obj=new A();
+     obj is just the refernce not the object creation 
+     new A();--->this is the object creation in the memory
+     new A().show();-->using this we can call the method .this is called anonymous object 
+     using we call only once that means to call another method we have to create object agian
+     that is waste of memory .
+
+2. dynamic method dispacth
+     consider there is three class 
+     class A 
+     show();
+     class B
+     show();
+     class C
+     show();
+     In above case we are overriding the show() methods 
+     while creating the object we are keeping the refernce for A and creating object 
+     for B and C class that is dynamic method dispacth
+     example of creating object
+     A obj=new A();
+     obj.show();---->it will call A class show()
+     obj=new B();
+     obj.show();---->it will call B class show()
+     obj=new c();
+     obj.show();--->it will call C class show()
+
